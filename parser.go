@@ -7,7 +7,7 @@ import (
 
 func main()  {
 	for i := 1; i < 40; i++ {
-		makehttp.Scraper("https://www.bjp-online.com/archive/page/" + strconv.Itoa(i), "aside article h3.entry-title")
+		makehttp.Scraper("https://www.bjp-online.com/archive/page/" + strconv.Itoa(i), "aside article h3.entry-title", "links")
 	}
 	//makehttp.Scraper("https://www.bjp-online.com", "aside article h3.entry-title")
 }
